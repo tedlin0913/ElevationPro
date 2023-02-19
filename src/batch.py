@@ -3,6 +3,7 @@ import numpy as np
 import quaternion
 import os, fnmatch
 
+
 # Parse data
 COMMENT = '/'
 DELIMITER = '\t'
@@ -65,3 +66,5 @@ for rootdir, dirs, files in os.walk(rootdir):
                     left_angle = cal_elevation_angle(df_ref, df_lseg)
                     left_stat = cal_elevate_stat(left_angle)
         result.append([subdir, right_stat, left_stat])
+
+#TODO: set root directory
