@@ -1,0 +1,111 @@
+<deployment-project plugin="plugin.ezdeploy" plugin-version="1.0">
+  <configuration build-checksum="3136881442" file="D:\repo\ElevationPro\src\MATLABR2022b\ElevationPro-MATLAB.prj" location="D:\repo\ElevationPro\src\MATLABR2022b" name="ElevationPro-MATLAB" preferred-package-location="D:\repo\ElevationPro\src\MATLABR2022b\ElevationPro_MATLAB\for_redistribution" preferred-package-type="package.type.exe" target="target.ezdeploy.standalone" target-name="Application Compiler">
+    <param.appname>ElevationPro_MATLAB</param.appname>
+    <param.icon />
+    <param.icons />
+    <param.version>1.0</param.version>
+    <param.authnamewatermark>Ted Lin</param.authnamewatermark>
+    <param.email>ptengineerlin@gmail.com</param.email>
+    <param.company />
+    <param.summary />
+    <param.description />
+    <param.screenshot />
+    <param.guid />
+    <param.installpath.string>\ElevationPro_MATLAB\</param.installpath.string>
+    <param.installpath.combo>option.installpath.programfiles</param.installpath.combo>
+    <param.logo />
+    <param.install.notes />
+    <param.target.install.notes />
+    <param.intermediate>${PROJECT_ROOT}\ElevationPro_MATLAB\for_testing</param.intermediate>
+    <param.files.only>${PROJECT_ROOT}\ElevationPro_MATLAB\for_redistribution_files_only</param.files.only>
+    <param.output>${PROJECT_ROOT}\ElevationPro_MATLAB\for_redistribution</param.output>
+    <param.logdir>${PROJECT_ROOT}\ElevationPro_MATLAB</param.logdir>
+    <param.enable.clean.build>false</param.enable.clean.build>
+    <param.user.defined.mcr.options />
+    <param.target.type>subtarget.standalone</param.target.type>
+    <param.support.packages />
+    <param.web.mcr>true</param.web.mcr>
+    <param.package.mcr>false</param.package.mcr>
+    <param.no.mcr>false</param.no.mcr>
+    <param.web.mcr.name>ElevationPro_Installer</param.web.mcr.name>
+    <param.package.mcr.name>MyAppInstaller_mcr</param.package.mcr.name>
+    <param.no.mcr.name>MyAppInstaller_app</param.no.mcr.name>
+    <param.windows.command.prompt>true</param.windows.command.prompt>
+    <param.create.log>true</param.create.log>
+    <param.log.file>elevationprolog</param.log.file>
+    <param.native.matlab>false</param.native.matlab>
+    <param.checkbox>false</param.checkbox>
+    <param.example />
+    <param.help.text>Syntax 
+	  -? 
+	 
+ Input Arguments 
+	 -?  print help on how to use the application 
+	 input arguments</param.help.text>
+    <unset>
+      <param.icon />
+      <param.icons />
+      <param.version />
+      <param.company />
+      <param.summary />
+      <param.description />
+      <param.screenshot />
+      <param.guid />
+      <param.installpath.string />
+      <param.installpath.combo />
+      <param.logo />
+      <param.install.notes />
+      <param.target.install.notes />
+      <param.enable.clean.build />
+      <param.user.defined.mcr.options />
+      <param.target.type />
+      <param.support.packages />
+      <param.web.mcr />
+      <param.package.mcr />
+      <param.no.mcr />
+      <param.package.mcr.name />
+      <param.no.mcr.name />
+      <param.windows.command.prompt />
+      <param.native.matlab />
+      <param.checkbox />
+      <param.example />
+    </unset>
+    <fileset.main>
+      <file>${PROJECT_ROOT}\ElevationPro_Matlab.mlapp</file>
+    </fileset.main>
+    <fileset.resources />
+    <fileset.package />
+    <fileset.depfun>
+      <file>${PROJECT_ROOT}\icons\angle.png</file>
+      <file>${PROJECT_ROOT}\icons\calculator.png</file>
+      <file>${PROJECT_ROOT}\icons\files.png</file>
+      <file>${PROJECT_ROOT}\icons\folder.png</file>
+      <file>${PROJECT_ROOT}\icons\magnifier.png</file>
+    </fileset.depfun>
+    <build-deliverables>
+      <file location="${PROJECT_ROOT}\ElevationPro_MATLAB\for_testing" name="ElevationPro_MATLAB.exe" optional="false">D:\repo\ElevationPro\src\MATLABR2022b\ElevationPro_MATLAB\for_testing\ElevationPro_MATLAB.exe</file>
+      <file location="${PROJECT_ROOT}\ElevationPro_MATLAB\for_testing" name="readme.txt" optional="true">D:\repo\ElevationPro\src\MATLABR2022b\ElevationPro_MATLAB\for_testing\readme.txt</file>
+      <file location="${PROJECT_ROOT}\ElevationPro_MATLAB\for_testing" name="splash.png" optional="false">D:\repo\ElevationPro\src\MATLABR2022b\ElevationPro_MATLAB\for_testing\splash.png</file>
+    </build-deliverables>
+    <workflow />
+    <matlab>
+      <root>D:\programs\MATLAB\R2022b</root>
+      <toolboxes />
+    </matlab>
+    <platform>
+      <unix>false</unix>
+      <mac>false</mac>
+      <windows>true</windows>
+      <win2k>false</win2k>
+      <winxp>false</winxp>
+      <vista>false</vista>
+      <linux>false</linux>
+      <solaris>false</solaris>
+      <osver>10.0</osver>
+      <os32>false</os32>
+      <os64>true</os64>
+      <arch>win64</arch>
+      <matlab>true</matlab>
+    </platform>
+  </configuration>
+</deployment-project>
